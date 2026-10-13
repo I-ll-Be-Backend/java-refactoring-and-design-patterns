@@ -1,0 +1,30 @@
+record Cart(double subtotal, boolean member) {}
+final class ShippingPolicy {
+    static final double FREE_FROM = 50.0;
+}
+
+class Checkout {
+    double shippingFee(Cart cart) {
+        if (cart.subtotal() >= ShippingPolicy.FREE_FROM) {
+            return 0.0;
+        }
+        return 4.99;
+    }
+}
+
+class CartBanner {
+    String message(Cart cart) {
+        if (cart.subtotal() < ShippingPolicy.FREE_FROM) {
+            double missing = ShippingPolicy.FREE_FROM - cart.subtotal();
+            return "Add $" + missing + " to ship free";
+        }
+        return "Your order ships free";
+    }
+}
+
+class OrderEmail {
+    String shippingLine(Cart cart) {
+        boolean free = cart.subtotal() >= ShippingPolicy.FREE_FROM;
+        return "Shipping: " + (free ? "free" : "$4.99");
+    }
+}
