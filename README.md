@@ -16,6 +16,7 @@ Code from the [I'll Be Backend](https://www.youtube.com/@illbebackend) videos: m
 | [Clean code: extract until it reads](extract-until-it-reads/) | 10 | [Watch](https://www.youtube.com/watch?v=Mlq_qHkKYTo) | [Open](https://illbebackend.dev/lessons/extract-until-it-reads/java/) |
 | [KISS: replace a rule engine with plain code](kiss-unwind-a-clever-abstraction/) | 13 | [Watch](https://www.youtube.com/watch?v=UGaIVg45Pto) | [Open](https://illbebackend.dev/lessons/kiss-unwind-a-clever-abstraction/java/) |
 | [Clean code: rename for intent](rename-for-intent/) | 13 | [Watch](https://www.youtube.com/watch?v=RXJt2qePBKQ) | [Open](https://illbebackend.dev/lessons/rename-for-intent/java/) |
+| [YAGNI: delete speculative options](yagni-delete-speculative-options/) | 11 | [Watch](https://www.youtube.com/watch?v=jPjEHSp6YWI) | [Open](https://illbebackend.dev/lessons/yagni-delete-speculative-options/java/) |
 
 ## How to use it
 
